@@ -9,23 +9,45 @@
       />
       <h1>Welcome to Vue.js</h1>
     </div>
-    <div class="bottom">
-      To get started, edit <code>./src/components/App.vue</code> and save to reload.<br/>
-      <span class="fade">
-        Checkout <code>./README.md</code> for more usages.
-      </span>
+    <div class="bottom container">
+      <NumberFormGroup id="zahl1" :config="numberconfig" :value.sync="state.zahl1"/>
+      <NumberFormGroup id="zahl2" :config="numberconfig" :value.sync="state.zahl2"/>
     </div>
   </div>
 </template>
 
 <script>
+  import NumberFormGroup from "../CustomComponents/NumberFormGroup.vue";
+
+  window.arrangement={
+      zahl1:15,
+      zahl2:12
+  }
+
   export default {
-    name: 'app'
+    name: 'app',
+      data: ()=>({
+        numberconfig:{
+            min: 0,
+            max: 35,
+            step: 3,
+            digits: 2,
+            unit: 'cm',
+            label: "Zahleingabe"
+        },
+          state:window.arrangement
+      }),
+      components:{
+        NumberFormGroup
+      }
+
   }
 </script>
 
 <!-- CSS libraries -->
 <style src="normalize.css/normalize.css"></style>
+<style src="bootstrap/dist/css/bootstrap.min.css"></style>;
+<style src="font-awesome/css/font-awesome.min.css"></style>;
 
 <!-- Global CSS -->
 <style>
