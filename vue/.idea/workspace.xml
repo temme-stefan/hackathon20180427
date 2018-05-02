@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477b1dfe-8e62-4c92-bc11-b1fba3e35a9d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/first-app/src/CustomComponents/NumberFormGroup.vue" />
-      <change beforePath="$PROJECT_DIR$/../react/first-app/src/index.css" afterPath="$PROJECT_DIR$/../react/first-app/src/index.css" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vue.iml" afterPath="$PROJECT_DIR$/.idea/vue.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/first-app/src/components/App.vue" afterPath="$PROJECT_DIR$/first-app/src/components/App.vue" />
-      <change beforePath="$PROJECT_DIR$/first-app/src/index.js" afterPath="$PROJECT_DIR$/first-app/src/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,12 +235,20 @@
       <updated>1524830806596</updated>
       <workItem from="1524830808243" duration="175000" />
       <workItem from="1524831004237" duration="8958000" />
-      <workItem from="1525241335881" duration="17000" />
+      <workItem from="1525241335881" duration="50000" />
     </task>
+    <task id="LOCAL-00001" summary="vue">
+      <created>1525241374327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525241374327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9150000" />
+    <option name="totallyTimeSpent" value="9183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -277,6 +279,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -386,6 +392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -393,6 +400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -400,6 +408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
